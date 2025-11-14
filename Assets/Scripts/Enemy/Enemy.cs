@@ -3,7 +3,7 @@ using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour
 {
-    public float speed = 7;
+    // public float speed = 7;
     public Transform targetTransform;
     private Rigidbody2D rb2d;
     NavMeshAgent navMeshAgent;
